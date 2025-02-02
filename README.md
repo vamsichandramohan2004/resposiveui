@@ -28,10 +28,11 @@ BeyondChats is a chatbot company. This project implements a **step-by-step UI/UX
   - Error UI in case integration fails
 
 ## 📸 Screenshots
-*(Attach screenshots of the UI if possible)*
+![image](https://github.com/user-attachments/assets/11a7dbee-c79a-4498-95d9-938b81fb3c79)
+
 
 ## 🛠️ Tech Stack
-- **Frontend:** ReactJS, TailwindCSS
+- **Frontend:** ReactJS
 - **Authentication:** Firebase (for Google sign-in & email verification)
 - **Animations & UI Enhancements:** Framer Motion, Confetti Effect
 
@@ -47,10 +48,6 @@ npm install
 # Start the development server
 npm start
 ```
-
-## 🔗 Live Demo
-[Click here to view the live project]() 
-
 ## 📌 Notes
 - Uses **dummy data** where required.
 - The UI is **fully responsive & optimized** for both desktop and mobile.
