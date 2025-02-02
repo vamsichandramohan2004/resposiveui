@@ -1,0 +1,49 @@
+.training-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 600px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to right, #408ec6, #316879);
+    transition: width 0.5s ease-in-out;
+}
+
+.status-list {
+    list-style: none;
+    padding: 0;
+}
+
+.status-list li {
+    padding: 8px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.status-list .pending {
+    color: red;
+}
+
+.status-list .scraped {
+    color: green;
+}
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+    .training-container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,77 @@
+.setup-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 500px;
+    margin: 0 auto; /* Centers the container horizontally */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds spacing between elements */
+}
+
+h2 {
+    font-size: 24px;
+    color: #512da8;
+    text-align: center;
+    margin-bottom: 15px; /* Adds some space between heading and other elements */
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #512da8;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 10px;
+    resize: none;
+    min-height: 150px;
+}
+
+button {
+    background: linear-gradient(to right, #408ec6, #316879);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    align-self: flex-end; /* Align button to the right */
+}
+
+button:hover {
+    background: #316879;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .setup-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    textarea {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}

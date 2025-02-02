@@ -1,0 +1,45 @@
+.integration-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 500px;
+    text-align: center;
+}
+
+.integration-container p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.integration-btns {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.integration-btn {
+    background: linear-gradient(to right, #408ec6, #316879);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.integration-btn:hover {
+    background: #316879;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .integration-container {
+        width: 90%;
+    }
+
+    .integration-btns {
+        flex-direction: column;
+    }
+}
